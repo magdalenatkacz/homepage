@@ -1,0 +1,38 @@
+.header {
+	background-color: rgba(177, 168, 168, 0.226);
+	display: inline-block;
+}
+
+.mainHeader {
+	color: rgb(146, 89, 146);
+	background: rgb(175, 169, 169);
+	text-align: center;
+
+}
+
+.sectionHeader {;
+	color: rgb(10, 139, 139);
+	background: rgba(128, 128, 128, 0.26);
+}
+
+.subsectionHeader {
+	font-size: 22px;
+	color: #1460aa;
+}
+
+#książki {
+	color: #1460aa;
+	background-color: rgba(96, 202, 167, 0.479);
+	font-size: 20px;
+}
+
+.paragraph {
+	background-color: rgba(180, 173, 173, 0.61);
+	font-size: 21px;
+	text-align: justify;
+}
+
+body {
+	background-image: url(cool-background.png);
+	min-height: 100%;
+}
