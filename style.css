@@ -1,6 +1,13 @@
+.main {
+  width: 50vw;
+	max-width: 700px;
+  margin: 32px auto;
+}
+
+
 .header {
-	background-color: rgba(216, 209, 209, 0.247);
-	display: inline-block;
+    display: inline-block;
+    position: fixed;
 }
 
 .mainHeader {
@@ -23,18 +30,15 @@
 #books {
 	color: #1460aa;
 	font-size: 23px;
-	width: 50vw;
-	max-width: 700px;
 	border-top: 5px double rgb(138, 132, 132);
-	padding: 5px 20px 5px 300px;
-	margin: 32px auto;
-
+	
 }
 
 .paragraph {
 	background-color: rgba(180, 173, 173, 0.61);
 	font-size: 21px;
-	text-align: justify;
+  text-align: justify;
+  padding: 10px;
 }
 
 body {
@@ -42,18 +46,7 @@ body {
 	min-height: 100%;
 }
 
-.about {
-	width: 50vw;
-	max-width: 700px;
-	padding: 5px 20px 5px 300px;
-}
-
 .photos {
 	width: 30vw;
 	max-width: 33%;
-}
-.author {
-	width: 50vw;
-	max-width: 700px;
-	padding: 5px 20px 5px 300px;
 }
