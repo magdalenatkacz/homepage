@@ -20,10 +20,15 @@
 	color: #1460aa;
 }
 
-#książki {
+#books {
 	color: #1460aa;
-	background-color: rgba(96, 202, 167, 0.479);
-	font-size: 20px;
+	font-size: 23px;
+	width: 50vw;
+	max-width: 700px;
+	border-top: 5px double rgb(138, 132, 132);
+	padding: 5px 20px 5px 300px;
+	margin: 32px auto;
+
 }
 
 .paragraph {
@@ -35,4 +40,20 @@
 body {
 	background-image: url(cool-background.png);
 	min-height: 100%;
+}
+
+.about {
+	width: 50vw;
+	max-width: 700px;
+	padding: 5px 20px 5px 300px;
+}
+
+.photos {
+	width: 30vw;
+	max-width: 33%;
+}
+.author {
+	width: 50vw;
+	max-width: 700px;
+	padding: 5px 20px 5px 300px;
 }
