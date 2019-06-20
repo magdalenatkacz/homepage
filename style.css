@@ -16,6 +16,7 @@
 	width: 50vw;
 	max-width: 700px;
 	position: 32px auto;
+	left: 50%;
 
 }
 
@@ -50,5 +51,14 @@ body {
 
 .photos {
 display: flex;
-width: 70vw;
+width: 98vw;
+position:relative;
+margin: 50px auto
+
+}
+
+.top {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
 }
