@@ -4,16 +4,18 @@
   margin: 32px auto;
 }
 
-
 .header {
     display: inline-block;
     position: fixed;
-}
+    }
 
 .mainHeader {
 	color: rgb(146, 89, 146);
 	background: rgb(175, 169, 169);
 	text-align: center;
+	width: 50vw;
+	max-width: 700px;
+	position: 32px auto;
 
 }
 
@@ -31,7 +33,7 @@
 	color: #1460aa;
 	font-size: 23px;
 	border-top: 5px double rgb(138, 132, 132);
-	
+  
 }
 
 .paragraph {
@@ -47,6 +49,6 @@ body {
 }
 
 .photos {
-	width: 30vw;
-	max-width: 33%;
+display: flex;
+width: 70vw;
 }
